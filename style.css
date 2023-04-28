@@ -13,11 +13,11 @@
  padding: 5px 0;
  background: gray;
  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
- height: 50px;
+ height: auto;
  transition: bottom 0.5s ease;
 }
 
-.keyboard__hidden {
+.keyboard_hidden {
  bottom: -100%;
 }
 
@@ -36,6 +36,7 @@
   font-size: 1.05rem;
   outline: none;
   cursor: pointer;
+  vertical-align: middle;
 }
 .keyboard__key_size-m {
   width: 6%;
